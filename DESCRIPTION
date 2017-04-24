@@ -1,7 +1,7 @@
 Package: RTCGA.miRNASeq
 Type: Package
 Title: miRNASeq datasets from The Cancer Genome Atlas Project
-Version: 1.3.0
+Version: 1.4.0
 Date: 2015-12-03
 Author: Witold Chodor <witoldchodor@gmail.com>
 Maintainer: Marcin Kosinski <m.p.kosinski@gmail.com>
