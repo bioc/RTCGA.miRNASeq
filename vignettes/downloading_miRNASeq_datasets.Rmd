@@ -22,8 +22,9 @@ opts_chunk$set(comment="", message=FALSE, warning = FALSE, tidy.opts=list(keep.b
 `RTCGA` package offers download and integration of the variety and volume of TCGA data using patient barcode key, what enables easier data possession. This may have a benefcial infuence on  development of science and improvement of patients' treatment. `RTCGA` is an open-source R package, available to download from Bioconductor 
 
 ```{r, eval=FALSE}
-source("http://bioconductor.org/biocLite.R")
-biocLite("RTCGA")
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+BiocManager::install("RTCGA")
 ```
 
 or use below code to download the development version which is like to be more bug-free than the release version on Bioconductor:

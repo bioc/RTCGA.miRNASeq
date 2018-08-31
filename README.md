@@ -19,6 +19,6 @@ To install Bioconductor development version use (the same as GitHub development 
 ````{R}
 BiocInstaller::useDevel() # swiches to devel branchof Bioconductor
 source("https://bioconductor.org/biocLite.R") # downloads bioClite function
-biocLite("RTCGA.mRNA") # installs a package
+BiocManager::install("RTCGA.mRNA") # installs a package
 ````
 
