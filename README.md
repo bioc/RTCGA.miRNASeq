@@ -17,8 +17,8 @@ Make sure you have [Rtools](https://cran.r-project.org/bin/windows/Rtools/) inst
 To install Bioconductor development version use (the same as GitHub development version) - `still in the review`
 
 ````{R}
-BiocInstaller::useDevel() # swiches to devel branchof Bioconductor
-source("https://bioconductor.org/biocLite.R") # downloads bioClite function
-BiocManager::install("RTCGA.mRNA") # installs a package
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+BiocManager::install("RTCGA.mRNA")
 ````
 
