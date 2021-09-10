@@ -2,6 +2,7 @@
 % Please edit documentation in R/miRNASeq_datasets.R
 \docType{data}
 \name{miRNASeq}
+\alias{miRNASeq}
 \alias{ACC.miRNASeq}
 \alias{ACC.miRNASeq,BLCA.miRNASeq,BRCA.miRNASeq,CESC.miRNASeq,CHOL.miRNASeq,COAD.miRNASeq,COADREAD.miRNASeq,DLBC.miRNASeq,ESCA.miRNASeq,FPPP.miRNASeq,GBM.miRNASeq,GBMLGG.miRNASeq,HNSC.miRNASeq,KICH.miRNASeq,KIPAN.miRNASeq,KIRC.miRNASeq,KIRP.miRNASeq,LAML.miRNASeq,LGG.miRNASeq,LIHC.miRNASeq,LUAD.miRNASeq,LUSC.miRNASeq,MESO.miRNASeq,OV.miRNASeq,PAAD.miRNASeq,PCPG.miRNASeq,PRAD.miRNASeq,READ.miRNASeq,SARC.miRNASeq,SKCM.miRNASeq,STAD.miRNASeq,STES.miRNASeq,TGCT.miRNASeq,THCA.miRNASeq,THYM.miRNASeq,UCEC.miRNASeq,UCS.miRNASeq,UVM.miRNASeq}
 \alias{BLCA.miRNASeq}
@@ -41,7 +42,6 @@
 \alias{UCEC.miRNASeq}
 \alias{UCS.miRNASeq}
 \alias{UVM.miRNASeq}
-\alias{miRNASeq}
 \title{miRNASeq datasets from TCGA project}
 \source{
 \url{http://gdac.broadinstitute.org/}
@@ -151,4 +151,3 @@ browseVignettes("RTCGA")
 
 }
 \keyword{datasets}
-
